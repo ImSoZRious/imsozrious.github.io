@@ -456,8 +456,16 @@ a:active  { text-decoration: underline; background-color: #FFD0D0; }
 	align-items: center;
 }
 
-.container > * {
-	width: 36em;
+@media(min-width:768px) {
+	.container > * {
+		width: 36em;
+	}
+}
+
+@media(max-width: 768px) {
+	.container > * {
+		width: 80%;
+	}
 }
 
 .headline {
@@ -465,5 +473,17 @@ a:active  { text-decoration: underline; background-color: #FFD0D0; }
 	justify-content: space-between;
 	font-weight: bold;
 	padding: 1em 0em;
+}
+
+.meta-left {
+	text-align: left;
+}
+
+.meta-center {
+	text-align: center;
+}
+
+.meta-right {
+	text-align: right;
 }
 
