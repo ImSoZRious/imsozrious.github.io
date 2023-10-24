@@ -466,6 +466,24 @@ a:active  { text-decoration: underline; background-color: #FFD0D0; }
 	.container > * {
 		width: 80%;
 	}
+	pre {
+		font-size: small;
+	}
+	span {
+		font-size: medium;
+	}
+}
+
+@media(max-width: 540px) {
+	.container > * {
+		width: 90%;
+	}
+	pre {
+		font-size: x-small;
+	}
+	span {
+		font-size: small;
+	}
 }
 
 .headline {
